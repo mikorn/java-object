@@ -13,5 +13,10 @@ public class Organization {
 		System.out.println("Город: " + city);
 		System.out.println("Статус: " + status);
 	}
+	
+	void lifetimeValue (double incomeCustomer, double costCustomer) {
+		double ltv = incomeCustomer - costCustomer;
+		System.out.println("Жизненная ценность клиента для компании (LTV): " + ltv);
+	}
 
 }

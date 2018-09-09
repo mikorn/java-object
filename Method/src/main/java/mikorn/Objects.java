@@ -12,6 +12,7 @@ public class Objects {
 		orange.status = "Переговоры";
 		
 		orange.orgInfo();
+		orange.lifetimeValue(1800, 500);
 		
 		System.out.println();
 		
@@ -23,6 +24,7 @@ public class Objects {
 		yellow.status = "Отказ";
 		
 		yellow.orgInfo();
+		yellow.lifetimeValue(1200, 700);
 
 	}
 
